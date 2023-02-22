@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PíaParks</title>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang='en'>
+
+<head>
+  
+<meta charset='utf-8' />
+<title>PíaParks</title>
+ 
+  </head>  
+
+  <body>
+    
+  <div id="map"></div>
+     
+      <!-- Title -->
+    <div class="Title" id="TitleWel">   
+        <div>
+       <h2>Welcome to PíaParks!</h2>
+         <p>The points on the map represent<br>locations of primo dog walking spots!</div>
+           </div>
+    
+           <!--  Contact -->
+      <div class="Contact" id="PPContact">
+    <div> For addition of new places or attribute updates please email <a href="mailto:piaparks.dog@gmail.com">piaparks.dog@gmail.com</a> with location, animals & attributes :)
+          </div>
+  </div>
+       
+    <!--  Animals Legend -->
+  <div class="animalledge" id="legendanimal">
+    <div> 
+     🐕 - Dogs
+      <br> 🐿️ - Squirels
+      <br> 🦌 - Deer
+      <br> 🐑 - Sheep
+      <br> 🦊 - Foxes
+      <br> 🦆 - Waterfowl
+          </div>
+  </div>
+  
+    <!--  Attributes Legend -->
+      <div class="attributeledge" id="legendattribute">
+    <div> 
+       🏊 - Water
+      <br> 🥏 - Open space
+      <br> 🌲 - Wooded areas
+      <br> ⛰️ - Hills
+      <br> ☕ - Refreshemetns
+      <br> 🏕️ - Camping
+          </div>
+  </div>
+ 
+    <!--  Sidebar -->
+    <div class="map-overlay">
+       <fieldset>
+       <div class="DirectionsIns" id= "InsDir"> Click place name for  directions  </div>
+          
+        <input id="feature-filter" type="text" placeholder="Filter results by name">
+    </fieldset>  <div id="feature-listing" class="listing"></div>
+      
+      </body>
+
+    
+  </html>
+<!-- partial -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
