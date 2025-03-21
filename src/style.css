@@ -1,196 +1,191 @@
-
 body { margin: 0; padding: 0; }
-#map { position: absolute; top: 0; bottom: 0; width: 100%; }
-
-    #map {
-        position: absolute;
-        left: 15%;
-        top: 0;
-        bottom: 0;
-        width: 85%;
+#map { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    width: 100%; 
 }
 
 /*Title */
-h2{
-line-height: 0px;
+h2 {
+    line-height: 0px;
 }
-p{
-line-height: 15px;
+p {
+    line-height: 15px;
 }
 .Title {
-  position: absolute;
-  top: 5px;
-  left: 16%;
-  background: #f7faf8;
-  font: 13px 'Open Sans', sans-serif;
-  overflow: auto;
-  border-radius: 3px;
-  opacity: 0.75;
+    position: absolute;
+    top: 5px;
+    left: 16%;
+    background: #f7faf8;
+    font: 13px 'Open Sans', sans-serif;
+    overflow: auto;
+    border-radius: 3px;
+    opacity: 0.75;
 }
-  #TitleWel {
- padding: 5px 10px 5px 10px;
- box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
- line-height: 20px;
- height: 60px;
- width: 220px;
- border-style: ridge;
+#TitleWel {
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 20px;
+    height: 60px;
+    width: 220px;
+    border-style: ridge;
 }
 
 /*Contact */
 .Contact {
-  position: fixed;
-  bottom: 10px;
-  left: 22%;
-  background: #f7faf8;
-  font: 13px 'Open Sans', sans-serif;
-  overflow: auto;
-  border-radius: 3px;
-  opacity: 0.75;
+    position: fixed;
+    bottom: 10px;
+    left: 22%;
+    background: #f7faf8;
+    font: 13px 'Open Sans', sans-serif;
+    overflow: auto;
+    border-radius: 3px;
+    opacity: 0.75;
 }
-  #PPContact {
- padding: 5px 10px 5px 10px;
- box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
- line-height: 20px;
- height: 40px;
- width: 370px;
- border-style: ridge;
+#PPContact {
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 20px;
+    height: 40px;
+    width: 370px;
+    border-style: ridge;
 }
 .email {}
 
-/*Animals Ledgend */
+/*Animals Legend */
 .animalledge {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: #f7faf8;
-  margin-right: 45px;
-  margin-bottom: 40px;
-  font: 13px 'Open Sans', sans-serif;
-  overflow: auto;
-  border-radius: 3px;
-  opacity: 0.75;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #f7faf8;
+    margin-right: 45px;
+    margin-bottom: 40px;
+    font: 13px 'Open Sans', sans-serif;
+    overflow: auto;
+    border-radius: 3px;
+    opacity: 0.75;
 }
-  #legendanimal {
- padding: 5px 10px 5px 10px;
- box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
- line-height: 20px;
- height: 120px;
- bottom: 140px;
- width: 90px;
- border-style: ridge;
+#legendanimal {
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 20px;
+    height: 120px;
+    bottom: 140px;
+    width: 90px;
+    border-style: ridge;
 }
 
-/*Attributes Ledgend */
+/*Attributes Legend */
 .attributeledge {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: #f7faf9;
-  margin-right: 15px;
-  margin-bottom: 0px;
-  font: 13px 'Open Sans', sans-serif;
-  overflow: auto;
-  border-radius: 3px;
-  opacity: 0.75;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #f7faf9;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    font: 13px 'Open Sans', sans-serif;
+    overflow: auto;
+    border-radius: 3px;
+    opacity: 0.75;
 }
-  #legendattribute {
- padding: 5px 10px 5px 10px;
- box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
- line-height: 20px;
- height: 120px;
- bottom: 40px;
- width: 120px;
- border-style: ridge;
+#legendattribute {
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 20px;
+    height: 120px;
+    bottom: 40px;
+    width: 120px;
+    border-style: ridge;
 }
-/*Sidebar*/
-    .map-overlay {
-        position: absolute;
-        width: 15%;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        font: 13px 'Open Sans', sans-serif;
-        background-color: white;
-        max-height: 100%;
-        overflow: hidden;
-       border-style: ridge;
-    }
 
-    /*Sidebar search bar*/
-    .map-overlay fieldset {
-        display: none;
-        background: #ddd;
-        border: none;
-        padding: 4px;
-        margin: 2; 
-    }
+/*Sidebar*/
+.map-overlay {
+    position: absolute;
+    width: 15%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    font: 13px 'Open Sans', sans-serif;
+    background-color: white;
+    max-height: 100%;
+    overflow: hidden;
+    border-style: ridge;
+}
+
+/*Sidebar search bar*/
+.map-overlay fieldset {
+    display: none;
+    background: #ddd;
+    border: none;
+    padding: 4px;
+    margin: 2px; 
+}
 
 /*search bar box */
-    .map-overlay input {
-        display: block;
-        border: none;
-        width: 100%;
-        border-radius: 2px;
-        padding: 5px;
-        margin: 0;
-        box-sizing: border-box;
-    }
+.map-overlay input {
+    display: block;
+    border: none;
+    width: 100%;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /*Sidebar directions instructions*/
 .DirectionsIns {
-  bottom: 0;
-  right: 0;
-  background: #f7faf9;
-  margin-right: 4px;
-  margin-bottom: 4px;
-  font: 13px 'Open Sans', sans-serif;
-  opacity: 0.75;
+    bottom: 0;
+    right: 0;
+    background: #f7faf9;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font: 13px 'Open Sans', sans-serif;
+    opacity: 0.75;
 }
 #InsDir {
- padding: 0px 0px 9px 5px;
- line height: 5px;
- height: 8px;
- bottom: 10px;
- width: 340px;
+    padding: 0px 0px 9px 5px;
+    line-height: 5px;
+    height: 8px;
+    bottom: 10px;
+    width: 340px;
 }
 
 /*listing*/
-    .map-overlay .listing {
-        overflow: auto;
-        max-height: 100%;
-    }
-    .map-overlay .listing > * {
-        display: block;
-        padding: 2px 8px;
-        margin: 0;
-    }
-   .map-overlay .listing a {
-        border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-        color: #3d3d3d;
-        text-decoration: none;
-    }
-    .map-overlay .listing a:last-child {
-        border: none;
-    }
-    .map-overlay .listing a:hover {
-        background: #e8e7e6;      
-    }
+.map-overlay .listing {
+    overflow: auto;
+    max-height: 100%;
+}
+.map-overlay .listing > * {
+    display: block;
+    padding: 2px 8px;
+    margin: 0;
+}
+.map-overlay .listing a {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.map-overlay .listing a:last-child {
+    border: none;
+}
+.map-overlay .listing a:hover {
+    background: #e8e7e6;      
+}
 
 /*Round edges of PopUps */
 .mapboxgl.popup {
-  border-radius: 60px;
-  border-color: white;
-  border-style: solid;
-  
+    border-radius: 6px;
+    border-color: white;
+    border-style: solid;
 }
 
 .mapboxgl-popup-content {
-  max-height: 30px;
-  border-style: double;
-  font: 'Open Sans', sans-serif;
-  font-size: 11px;
-  padding:20; 
-  border-radius: 300px;
-  border-color: #d9d8d4;
-  opacity: 0.95;
+    max-height: 30px;
+    border-style: none;
+    font: 'Open Sans', sans-serif;
+    font-size: 11px;
+    padding: 10px; 
+    border-color: #d9d8d4;
+    opacity: 0.90;
 }
